@@ -12,12 +12,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ConfigureCamera.vi" Type="VI" URL="../subVIs/ConfigureCamera.vi"/>
-		<Item Name="ConstructImageSavePath.vi" Type="VI" URL="../subVIs/ConstructImageSavePath.vi"/>
-		<Item Name="Diag - SimpleMove.vi" Type="VI" URL="../Diag - SimpleMove.vi"/>
-		<Item Name="DPadMotorTest.vi" Type="VI" URL="../DPadMotorTest.vi"/>
-		<Item Name="MoveXYSteps.vi" Type="VI" URL="../MoveXYSteps.vi"/>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="ConfigureCamera.vi" Type="VI" URL="../subVIs/ConfigureCamera.vi"/>
+			<Item Name="ConstructImageSavePath.vi" Type="VI" URL="../subVIs/ConstructImageSavePath.vi"/>
+			<Item Name="Diag - SimpleMove.vi" Type="VI" URL="../Diag - SimpleMove.vi"/>
+			<Item Name="DPadMotorTest.vi" Type="VI" URL="../DPadMotorTest.vi"/>
+			<Item Name="MoveXYSteps.vi" Type="VI" URL="../MoveXYSteps.vi"/>
+		</Item>
+		<Item Name="ConstructTestInstructionArray.vi" Type="VI" URL="../subVIs/ConstructTestInstructionArray.vi"/>
+		<Item Name="ReturnHome.vi" Type="VI" URL="../subVIs/ReturnHome.vi"/>
 		<Item Name="SALS.vi" Type="VI" URL="../SALS.vi"/>
+		<Item Name="SetupNIUSB.vi" Type="VI" URL="../subVIs/SetupNIUSB.vi"/>
+		<Item Name="ShutdownCameraAndNIUSB.vi" Type="VI" URL="../subVIs/ShutdownCameraAndNIUSB.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
